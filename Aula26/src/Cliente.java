@@ -42,4 +42,10 @@ public class Cliente {
         return "Cliente [nome=" + nome + ", telefone=" + telefone + ", email=" + email + "]";
     }
 
+    public String exibirDados() {
+        return "\nNome Cliente: " + nome +
+                "\nTelefone Cliente: " + telefone +
+                "\nE-mail Cliente: " + email;
+    }
+
 }
